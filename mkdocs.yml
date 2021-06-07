@@ -1,0 +1,22 @@
+site_name: PD (Resume Penambangan Data)
+theme: 
+  name: material
+  palette:
+    primary: teal
+    accent: indigo
+  localization: id
+repo_name: 'willnode/PD'
+repo_url: 'https://github.com/willnode/PD'
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/willnode'
+extra_css:
+  - https://fonts.googleapis.com/icon?family=Material+Icons
+extra_javascript:
+  # other extra java script
+  - mathjax-config.js
+  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+markdown_extensions:
+  - codehilite
+  - pymdownx.arithmatex
